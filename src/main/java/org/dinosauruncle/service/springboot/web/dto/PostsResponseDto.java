@@ -1,7 +1,8 @@
 package org.dinosauruncle.service.springboot.web.dto;
 
+import lombok.Getter;
 import org.dinosauruncle.service.springboot.domain.posts.Posts;
-
+@Getter
 public class PostsResponseDto {
 
     private Long id;
